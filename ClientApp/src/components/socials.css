@@ -1,0 +1,28 @@
+﻿.row-content-socials {
+    position: fixed;
+    top: 20%;
+    left: 0%;
+    margin-right:93%;
+    background-color: lightgray;
+    border: 3px solid #73AD21;
+}
+/* Ikony */
+ion-icon {
+    color: blue;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+}
+ion-icon:hover
+{
+    color: grey;
+}
+/* Tekst */
+.socials-text {
+    position: fixed;
+    top: 13%;
+    left: 1px;
+    color: midnightblue;
+    font-size:36px;
+    font-family: 'Square Peg', cursive;
+}
