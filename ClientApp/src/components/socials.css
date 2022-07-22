@@ -1,17 +1,25 @@
-﻿.row-content-socials {
-    position: fixed;
-    top: 20%;
-    left: 0%;
-    margin-right:93%;
-    background-color: lightgray;
-    border: 3px solid #73AD21;
+﻿.socials-container
+{
+    display:flex;
+    flex-direction:column;
+    bottom: 0;
+ 
+    background-color: darkorchid;
+   
 }
+
 /* Ikony */
+.social-icons
+{
+    display:flex;
+    flex-direction:row;
+    margin-left: 40%;
+}
 ion-icon {
     color: blue;
     font-size: 100px;
-    display: flex;
-    flex-direction: row;
+   /* display: flex;
+    flex-direction: row; */
 }
 ion-icon:hover
 {
@@ -19,9 +27,7 @@ ion-icon:hover
 }
 /* Tekst */
 .socials-text {
-    position: fixed;
-    top: 13%;
-    left: 1px;
+    margin-left:30%;
     color: midnightblue;
     font-size:36px;
     font-family: 'Square Peg', cursive;

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-
+import './index.css';
 export class Home extends Component {
   static displayName = Home.name;
-
   render() {
       return (
            
   
-              <div>
+          <div class="homepageText">
               <h1> Siemanko </h1>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin lacus nibh, eget laoreet est convallis sed. Pellentesque venenatis semper tincidunt. Mauris nec mi nec est aliquam iaculis. Curabitur hendrerit sed felis ut viverra. Donec ac hendrerit massa, in egestas sapien. Aliquam erat volutpat. Nunc magna nibh, lacinia vel felis maximus, dignissim rutrum lectus. In lobortis eget risus pulvinar dignissim. Proin tempor erat sit amet vulputate venenatis. Duis a volutpat purus. In hac habitasse platea dictumst. Quisque consectetur, diam ut posuere euismod, ante risus maximus neque, et consequat est erat a sem. Aenean a condimentum neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 

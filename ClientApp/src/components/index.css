@@ -1,0 +1,11 @@
+﻿@media screen and (max-width: 768px) {
+    .homepageText {
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+}
+.homepageText
+{
+    margin-left: 5%;
+    margin-right:15%;
+}
